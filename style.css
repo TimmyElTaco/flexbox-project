@@ -3,25 +3,74 @@ body {
     margin: 0;
 }
 
-.header-logo {
-    background-color: #1f2937;
+.header-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    background-color: #1f2937;
     padding: 20px;
+    height: 500px;
 }
 
-.header-logo div {
+.text-header {
+    padding-right: 40px;
+}
+
+.left-header, .right-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-header, .imagen {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-section div {
+    max-width: 500px;
+}
+
+.left-header .logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
 }
 
+.text-header div {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.left-header p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.random-information {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
 ul {
     display: flex;
     flex-direction: row;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    padding: 0px;
     list-style-type: none;
     font-size: 18px;
     color: #e5e7eb;
     gap: 20px;
+}
+
+button {
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
 }
