@@ -20,7 +20,7 @@ body {
     flex-direction: column;
 }
 
-.text-header, .imagen {
+.text-header, img {
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -48,8 +48,39 @@ body {
 
 .random-information {
     display: flex;
-    justify-content: center;
-    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: auto;
+    margin-left: auto;
+    height: 450px;
+    width: 800px;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.information-container {
+    display: flex;
+    gap: 40px;
+}
+
+.information-minicontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    color: #1f2937;
+    gap: 20px;
+}
+
+.imagen {
+    border: 4px solid #3882f6;  
+    height: 150px;
+    border-radius: 8px;
 }
 
 ul {
