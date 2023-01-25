@@ -121,7 +121,30 @@ body {
 }
 
 .alerta {
-    
+    display: flex;
+    align-items: center;
+    padding: 50px 130px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+}
+
+.texto-alerta {
+    padding-right: 60px;
+}
+
+.texto-alerta div {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.texto-alerta span {
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+.alerta button {
+    border: 3px solid white;
 }
 
 ul {
